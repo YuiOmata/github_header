@@ -1,0 +1,6 @@
+"content_scripts": [
+  {
+    "matches": ["http://www.google.com/*"],
+    "css": ["mystyles.css"]
+  }
+]
