@@ -1,0 +1,14 @@
+.header-nav-link{
+	display: block;
+    padding: 5px 8px;
+    font-weight: 600;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.header {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: rgba(0, 0, 0, 0.75);
+    background-color: #f6f9fb;
+}
