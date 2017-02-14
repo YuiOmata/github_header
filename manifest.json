@@ -1,7 +1,13 @@
-"content_scripts": [
-  {
-    "matches": ["http://github.com/*"],
-    "css": ["mystyles.css"],
-    "js": ["content_scripts"]
-  }
-]
+{
+  "manifest_version": 1,
+  "name": "github_header",
+  "version": "0.1",
+  "description": "GitHubのヘッダーを白くする",
+  "content_scripts": [
+    {
+      "matches": ["http://github.com/*"],
+      "css": ["styles.css"],
+      "js": ["script.js"]
+    }
+  ]
+}
