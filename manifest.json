@@ -1,11 +1,11 @@
 {
-  "manifest_version": 1,
+  "manifest_version": 2,
   "name": "github_header",
   "version": "0.1",
   "description": "GitHubのヘッダーを白くする",
   "content_scripts": [
     {
-      "matches": ["http://github.com/*"],
+      "matches": ["https://github.com/*"],
       "css": ["styles.css"],
       "js": ["script.js"]
     }
