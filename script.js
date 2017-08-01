@@ -18,4 +18,7 @@ window.onload=function(){
       header_navlinks[index].setAttribute('style','color: #3f3f3f;');
     }
   }
+
+  var mail_status = document.getElementsByClassName('mail-status');
+  mail_status[0].setAttribute('style','border: 2px solid #e5e5e5;');
 }
