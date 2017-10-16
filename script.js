@@ -11,12 +11,9 @@ window.onload=function(){
   var header_search_input = document.getElementsByClassName('header-search-input');
   header_search_input[0].setAttribute('style','color: #000;');
 
-  var header_navlinks = document.getElementsByClassName('header-navlink');
-  for(index in header_navlinks){
-    var re = new RegExp("[0-9]+");
-    if( re.test(index) ){
-      header_navlinks[index].setAttribute('style','color: #3f3f3f;');
-    }
+  var header_nav_links = document.getElementsByClassName('HeaderNavlink');
+  for(index in header_nav_links){
+      header_nav_links[index].setAttribute('style','color: #000;');
   }
 
   var mail_status = document.getElementsByClassName('mail-status');
