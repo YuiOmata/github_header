@@ -1,5 +1,5 @@
 window.onload=function(){
-  var header = document.getElementsByClassName('header');
+  var header = document.getElementsByClassName('Header');
   header[0].setAttribute('style','background-color: #e5e5e5;border-bottom: 1px solid #eee;');
 
   var header_search = document.getElementsByClassName('header-search-wrapper');
